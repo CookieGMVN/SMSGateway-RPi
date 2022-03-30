@@ -17,7 +17,7 @@ void setup() {
   updateSerial();
   simSerial.println("AT+CMGF=1");
   updateSerial();
-  simSerial.println("AT+CMGS=\"0364261257\"");
+  simSerial.println("AT+CMGS=\"0xxxxxxxxx\"");
   updateSerial();
   simSerial.print("Hi from NezukoBot 2FA SMS Verify!");
   updateSerial();
